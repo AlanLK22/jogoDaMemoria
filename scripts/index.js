@@ -155,7 +155,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 
 
-const flipSound = "/music/success-bell.mp3";
+const flipSound = "./music/success-bell.mp3";
 
 
 function playMatchSound() {
@@ -164,7 +164,7 @@ function playMatchSound() {
 }
 
 
-const victorySound = "/music/success-fanfare-trumpets.mp3"
+const victorySound = "./music/success-fanfare-trumpets.mp3"
 
 
 function playVictorySound() {
