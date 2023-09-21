@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memoria</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/3132/3132772.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="styles/win.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JOGO DA MEMÓRIA CRISTÃO</h1>
+      <nav>
+        
+      </nav>
+    </header>
+  
+    <div id="vitoria">
+      <div id="container">
+        <h1>Parabéns!</h1>
+        <p>Você encontrou todos os pares com</p>
+        <h2><span id="movimentosvitoria">0</span> ERROS</h2>
+        <a href="index.html">Jogar denovo</a>
+      </div>
+    </div>
+  
+    <section id="responsivo">
+      <h2>Erros <span id="movimentos2">0</span></h2>
+    
+      <a href="index.html">Reiniciar</a>
+    </section>
+
+    <div class="corpo">
+      <section id="esq">
+        <h2>Erros <span id="movimentos">0</span></h2>
+    
+        <a href="index.html">Reiniciar</a>
+      </section>
+      <section class="jogo">
+        <div class="card" data-nome = "jesus">
+          <img
+            class="frente"
+            src="/src/jesus.jpg"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "jesus">
+          <img
+            class="frente"
+            src="/src/jesus.jpg"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "moisés">
+          <img
+            class="frente"
+            src="/src/moisés.avif"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "moisés">
+          <img
+            class="frente"
+            src="/src/moisés.avif"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "cruz">
+          <img
+            class="frente"
+            src="/src/cruz.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "cruz">
+          <img
+            class="frente"
+            src="/src/cruz.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "arca">
+          <img
+            class="frente"
+            src="/src/arca.avif"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "arca">
+          <img
+            class="frente"
+            src="/src/arca.avif"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "davi">
+          <img
+            class="frente"
+            src="/src/davi.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "davi">
+          <img
+            class="frente"
+            src="/src/davi.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "sansão">
+          <img
+            class="frente"
+            src="/src/sansão.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "sansão">
+          <img
+            class="frente"
+            src="/src/sansão.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="/src/interrogação.jpg"
+            alt="card"
+          />
+        </div>
+      </section>
+      <section id="dir"></section>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
